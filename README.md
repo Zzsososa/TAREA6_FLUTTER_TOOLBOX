@@ -2,6 +2,11 @@
 
 Esta aplicacion ha sido desarrollada por Victor Lorenzi Hernandez Sosa, estudiante de la materia de Introduccion al Desarrollo de Aplicaciones Moviles, facilitada por el maestro Amadis Suarez Genao.
 
+## Descarga del APK
+
+Puedes descargar la ultima versión del instalador (APK) de la aplicación en el siguiente enlace:
+[Descargar ToolBox App APK](https://drive.google.com/file/d/17DsHm_AADhRMaI94MpHDhTt12HjQ7JdH/view?usp=sharing)
+
 ## Descripcion
 
 ToolBox App es una herramienta multifuncional que integra diversas utilidades y servicios mediante el consumo de APIs externas. Las funcionalidades principales incluyen:
