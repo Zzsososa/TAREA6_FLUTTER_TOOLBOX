@@ -45,11 +45,16 @@ class ApiService {
   }
 
   Future<Map<String, dynamic>> getPokemon(String name) async {
-    final response = await http.get(Uri.parse('$pokeApiUrl${name.toLowerCase()}'));
+    final cleanName = name.trim().toLowerCase();
+    if (cleanName.isEmpty) throw Exception('El nombre no puede estar vacio');
+    
+    final response = await http.get(Uri.parse('$pokeApiUrl$cleanName'));
     if (response.statusCode == 200) {
       return json.decode(response.body);
+    } else if (response.statusCode == 404) {
+      throw Exception('Pokemon no encontrado. Verifica el nombre.');
     }
-    throw Exception('Failed to load pokemon data');
+    throw Exception('Error del servidor: ${response.statusCode}');
   }
 
   Future<List<dynamic>> getWordPressNews(String siteUrl) async {
