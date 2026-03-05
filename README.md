@@ -1,17 +1,28 @@
-# tarea6_flutter
+# ToolBox App - Tarea 6 Flutter
 
-A new Flutter project.
+Esta aplicacion ha sido desarrollada por Victor Lorenzi Hernandez Sosa, estudiante de la materia de Introduccion al Desarrollo de Aplicaciones Moviles, facilitada por el maestro Amadis Suarez Genao.
 
-## Getting Started
+## Descripcion
 
-This project is a starting point for a Flutter application.
+ToolBox App es una herramienta multifuncional que integra diversas utilidades y servicios mediante el consumo de APIs externas. Las funcionalidades principales incluyen:
 
-A few resources to get you started if this is your first Flutter project:
+*   Prediccion de genero basada en el nombre.
+*   Estimacion de edad con categorizacion por etapas de vida.
+*   Busqueda de universidades por pais.
+*   Consulta del clima en tiempo real para Santo Domingo, Republica Dominicana.
+*   Informacion detallada de Pokemon, incluyendo habilidades y sonidos.
+*   Visualizacion de noticias recientes desde sitios WordPress.
+*   Seccion de contacto con informacion del desarrollador.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Tecnologias Utilizadas
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*   Flutter y Dart para el desarrollo multiplataforma.
+*   Paquetes para peticiones HTTP, reproduccion de audio, manejo de URLs y fuentes personalizadas.
+*   Configuracion de iconos personalizados para la aplicacion.
+
+## Instalacion y Ejecucion
+
+Para ejecutar este proyecto localmente, asegurese de tener instalado Flutter y ejecute los siguientes comandos en la terminal:
+
+1.  Obtener dependencias: `flutter pub get`
+2.  Ejecutar la aplicacion: `flutter run`
